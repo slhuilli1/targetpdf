@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+    <name>Target _blank pdf only</name>
+    <author>Sébastien LHUILLIER</author>
+    <creationDate>May 2015</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+    <authorUrl>www.sebastien-lhuillier.com</authorUrl>
+    <version>1.0</version>
+    <description>
+       Force l'ouverture des fichiers PDF d'une page dans un nouvel onglet/nouvelle parge en jouant sur le target
+    </description>
+    <files>
+        <filename>targetpdf.xml</filename>
+        <filename plugin="targetpdf">targetpdf.php</filename>
+    </files>
+    <config>
+    </config>
+</extension>
